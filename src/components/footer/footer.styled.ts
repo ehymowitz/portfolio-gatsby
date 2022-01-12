@@ -10,5 +10,6 @@ export const StyledFooter = styled.section`
 
   svg {
     margin-left: 36px;
+    height: 28px;
   }
 `

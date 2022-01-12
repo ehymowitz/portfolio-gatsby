@@ -1,14 +1,12 @@
-import {
-  faLinkedin,
-  faGithub,
-  faSpotify,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import { StyledFooter } from "./footer.styled"
-
+import {
+  LinkedinSquare,
+  Github,
+  Instagram,
+  Spotify,
+} from "@styled-icons/boxicons-logos"
+import { Envelope } from "@styled-icons/boxicons-regular"
 const Footer = () => {
   return (
     <StyledFooter>
@@ -21,27 +19,27 @@ const Footer = () => {
           target="_blank"
           rel="noopener"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <LinkedinSquare />
         </a>
         <a href="https://github.com/ehymowitz" target="_blank" rel="noopener">
-          <FontAwesomeIcon icon={faGithub} />
+          <Github />
         </a>
         <a
           href="https://www.instagram.com/elie.s.h/"
           target="_blank"
           rel="noopener"
         >
-          <FontAwesomeIcon icon={faInstagram} />
+          <Instagram />
         </a>
         <a
           href="https://open.spotify.com/playlist/2ieh5fIUHEdPw5dnwS2wcp?si=Q7GnR3flREOSEcb3ME6HzA"
           target="_blank"
           rel="noopener"
         >
-          <FontAwesomeIcon icon={faSpotify} />
+          <Spotify />
         </a>
         <a href="mailto:ehymowitz@gmail.com" target="_blank" rel="noopener">
-          <FontAwesomeIcon icon={faEnvelope} />
+          <Envelope />
         </a>
       </div>
     </StyledFooter>
