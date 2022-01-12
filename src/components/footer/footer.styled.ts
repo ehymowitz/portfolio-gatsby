@@ -1,13 +1,14 @@
 import styled from "styled-components"
 
 export const StyledFooter = styled.section`
-  background-color: darkgrey;
-  padding: 3em 6em;
-  margin: 0;
-  text-align: center;
   font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 2em;
+  width: 89%;
 
   svg {
-    margin: 0 20px;
+    margin-left: 36px;
   }
 `

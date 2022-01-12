@@ -1,8 +1,10 @@
 import {
-  faImdb,
-  faYoutube,
+  faLinkedin,
+  faGithub,
+  faSpotify,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import { StyledFooter } from "./footer.styled"
@@ -10,23 +12,36 @@ import { StyledFooter } from "./footer.styled"
 const Footer = () => {
   return (
     <StyledFooter>
+      <a href="../../../Elie Hymowitz_CV.pdf" target="_blank">
+        CV
+      </a>
       <div>
         <a
-          href="https://www.imdb.com/name/nm11332858/"
+          href="https://www.linkedin.com/in/eliehymowitz/"
           target="_blank"
           rel="noopener"
         >
-          <FontAwesomeIcon icon={faImdb} />
+          <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="" target="_blank" rel="noopener">
-          <FontAwesomeIcon icon={faYoutube} />
+        <a href="https://github.com/ehymowitz" target="_blank" rel="noopener">
+          <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
-          href="https://www.instagram.com/hilary__armstrong/"
+          href="https://www.instagram.com/elie.s.h/"
           target="_blank"
           rel="noopener"
         >
           <FontAwesomeIcon icon={faInstagram} />
+        </a>
+        <a
+          href="https://open.spotify.com/playlist/2ieh5fIUHEdPw5dnwS2wcp?si=Q7GnR3flREOSEcb3ME6HzA"
+          target="_blank"
+          rel="noopener"
+        >
+          <FontAwesomeIcon icon={faSpotify} />
+        </a>
+        <a href="mailto:ehymowitz@gmail.com" target="_blank" rel="noopener">
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>
     </StyledFooter>

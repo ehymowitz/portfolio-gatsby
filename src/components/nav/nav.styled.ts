@@ -5,10 +5,13 @@ export const StyledNav = styled.div`
   justify-content: space-between;
   font-family: "Fraunces";
   align-items: center;
-  margin: 1em 2em;
+  position: fixed;
+  top: 2em;
+  width: 89%;
 
-  div {
-    a {
+  ul {
+    display: flex;
+    p {
       padding: 0 10px;
     }
   }

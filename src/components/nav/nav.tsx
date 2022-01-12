@@ -1,19 +1,17 @@
-import { Link } from "gatsby"
 import React from "react"
 import { StyledNav } from "./nav.styled"
 
 const Nav = () => {
   return (
     <StyledNav>
-      <Link to="/">
-        <h2>Hilary Armstrong</h2>
-      </Link>
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
-      </div>
+      <h2>EH</h2>
+      <ul>
+        <p>Home</p>
+        <p>|</p>
+        <p>About</p>
+        <p>|</p>
+        <p>Adventures</p>
+      </ul>
     </StyledNav>
   )
 }
