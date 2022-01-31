@@ -3,6 +3,9 @@ import "@fontsource/commissioner" // Defaults to weight 400.
 import "@fontsource/fraunces" // Defaults to weight 400.
 
 export const GlobalStyle = createGlobalStyle`
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     font-family: "Commissioner";

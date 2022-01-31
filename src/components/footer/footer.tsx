@@ -5,7 +5,7 @@ import {
   InstagramIcon,
   LinkedInIcon,
   SpotifyIcon,
-} from "../elements/linkIcons"
+} from "../hoverIcons/linkIcons"
 import { StyledFooter } from "./footer.styled"
 const Footer = () => {
   return (

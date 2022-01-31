@@ -6,11 +6,14 @@ import {
   MusicTitleText,
   StyledMusic,
 } from "./music.styled"
-import { InstagramIcon, SpotifyIcon } from "../../components/elements/linkIcons"
+import {
+  InstagramIcon,
+  SpotifyIcon,
+} from "../../components/hoverIcons/linkIcons"
 
 const Music = () => {
   return (
-    <StyledMusic>
+    <StyledMusic id="music">
       <div>
         <MusicTitleText>
           <h2>Music Videos I'm In</h2>
