@@ -17,12 +17,12 @@ export default function Layout({ children }: LayoutProps) {
         <title>Elie Hymowitz</title>
         <meta
           name="description"
-          content="Elie Hymowitz's Web Portfolio. I'm a web developer and musician, and I take photos too."
+          content="Elie Hymowitz's Web Portfolio. I'm a web developer and musician"
         />
         <meta property="og:title" content="Elie Hymowitz" />
         <meta
           property="og:description"
-          content="Elie Hymowitz's Web Portfolio. I'm a web developer and musician, and I take photos too."
+          content="Elie Hymowitz's Web Portfolio. I'm a web developer and musician"
         />
         <meta property="og:image" content="/headshot.png" />
         <meta property="og:url" content="https://hymowitz.org/" />
