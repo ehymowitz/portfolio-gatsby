@@ -22,9 +22,11 @@ export const MusicContainer = styled.div`
     width: 560px;
     height: 315px;
 
-    &:hover {
-      width: 600px;
-      height: 390px;
+    @media only screen and (min-width: 768px) {
+      &:hover {
+        width: 600px;
+        height: 390px;
+      }
     }
   }
 `

@@ -4,6 +4,7 @@ export const StyledSection = styled.section`
   display: flex;
   align-items: center;
   height: 90vh;
+  min-height: 800px;
 `
 
 export const TitleText = styled.div`
@@ -13,6 +14,14 @@ export const TitleText = styled.div`
 
   div {
     display: flex;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+
+    div {
+      display: grid;
+    }
   }
 `
 
