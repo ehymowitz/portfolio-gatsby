@@ -3,21 +3,6 @@ import { StyledSection } from "../../components/section/section.styled"
 
 export const StyledMusic = styled(StyledSection)``
 
-export const MusicTitleText = styled.div`
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-
-  div {
-    display: flex;
-
-    p,
-    a {
-      font-size: 12px;
-    }
-  }
-`
-
 export const MusicList = styled.div`
   display: grid;
   grid-gap: 25px;

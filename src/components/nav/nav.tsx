@@ -9,8 +9,8 @@ const Nav = () => {
         <a href="#me">Me</a>
         <a>|</a>
         <a href="#music">Music</a>
-        {/* <a>|</a> */}
-        {/* <a>Adventures</a> */}
+        <a>|</a>
+        <a href="#code">Code</a>
       </ul>
     </StyledNav>
   )

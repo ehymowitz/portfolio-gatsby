@@ -6,7 +6,7 @@ const Top = () => {
     <StyledTop id="me">
       <div>
         <h1>Hi, I'm Elie</h1>
-        <h2>I'm a web developer. I also play music, alot</h2>
+        <h2>I'm a web developer. I also play music</h2>
         <h2>Born in Seattle, living in Montreal</h2>
       </div>
     </StyledTop>

@@ -1,21 +1,17 @@
 import React from "react"
 import musicProjects from "../../media/music"
-import {
-  MusicContainer,
-  MusicList,
-  MusicTitleText,
-  StyledMusic,
-} from "./music.styled"
+import { MusicContainer, MusicList, StyledMusic } from "./music.styled"
 import {
   InstagramIcon,
   SpotifyIcon,
 } from "../../components/hoverIcons/linkIcons"
+import { SmallText, TitleText } from "../../components/section/section.styled"
 
 const Music = () => {
   return (
     <StyledMusic id="music">
       <div>
-        <MusicTitleText>
+        <TitleText>
           <h2>Music Videos I'm In</h2>
           <div>
             <a
@@ -23,22 +19,22 @@ const Music = () => {
               target="_blank"
               rel="noopener"
             >
-              <p>
+              <SmallText>
                 <InstagramIcon />
                 For more of what I'm up to
-              </p>
+              </SmallText>
             </a>
             <a
               href="https://open.spotify.com/playlist/2ieh5fIUHEdPw5dnwS2wcp?si=Q7GnR3flREOSEcb3ME6HzA"
               target="_blank"
               rel="noopener"
             >
-              <p>
+              <SmallText>
                 <SpotifyIcon /> For more songs I've played on
-              </p>
+              </SmallText>
             </a>
           </div>
-        </MusicTitleText>
+        </TitleText>
         <MusicList>
           {musicProjects.map(project => (
             <MusicContainer>
