@@ -7,14 +7,13 @@ export const MusicTitleText = styled.div`
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  p,
-  a {
-    margin: 0;
-    margin-left: 25px;
-    font-size: 12px;
-    svg {
-      margin-left: 36px;
-      height: 28px;
+
+  div {
+    display: flex;
+
+    p,
+    a {
+      font-size: 12px;
     }
   }
 `

@@ -6,7 +6,7 @@ import {
   MusicTitleText,
   StyledMusic,
 } from "./music.styled"
-import { Instagram, Spotify } from "@styled-icons/boxicons-logos"
+import { InstagramIcon, SpotifyIcon } from "../../components/elements/linkIcons"
 
 const Music = () => {
   return (
@@ -20,14 +20,19 @@ const Music = () => {
               target="_blank"
               rel="noopener"
             >
-              <Instagram /> For more of what I'm up to
+              <p>
+                <InstagramIcon />
+                For more of what I'm up to
+              </p>
             </a>
             <a
               href="https://open.spotify.com/playlist/2ieh5fIUHEdPw5dnwS2wcp?si=Q7GnR3flREOSEcb3ME6HzA"
               target="_blank"
               rel="noopener"
             >
-              <Spotify /> For more songs I've played on
+              <p>
+                <SpotifyIcon /> For more songs I've played on
+              </p>
             </a>
           </div>
         </MusicTitleText>

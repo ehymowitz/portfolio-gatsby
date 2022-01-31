@@ -7,9 +7,4 @@ export const StyledFooter = styled.section`
   position: fixed;
   bottom: 2em;
   width: 89%;
-
-  svg {
-    margin-left: 36px;
-    height: 28px;
-  }
 `
