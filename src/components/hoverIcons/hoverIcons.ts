@@ -16,7 +16,7 @@ export const HoverIcon = styled.a<HoverIconProps>`
     height: 28px;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     svg {
       margin-left: 0;
     }

@@ -21,6 +21,6 @@ export const GlobalStyle = createGlobalStyle`
     color: black;
     text-decoration: none;
   }
-  `
+`
 
 export const StyledLayout = styled.div``

@@ -16,7 +16,7 @@ export const TitleText = styled.div`
     display: flex;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     flex-direction: column;
 
     div {

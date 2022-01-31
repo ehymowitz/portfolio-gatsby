@@ -9,7 +9,7 @@ const Code = () => {
     <StyledCode id="code">
       <div>
         <TitleText>
-          <h2>Projects I maintain</h2>
+          <h1>Projects I maintain</h1>
           <div>
             <a
               href="https://www.linkedin.com/in/eliehymowitz/"
@@ -59,7 +59,7 @@ const Code = () => {
                     <div>
                       <project.image />
                     </div>
-                    <p>{project.subtitle}</p>
+                    <h3>{project.subtitle}</h3>
                   </a>
                 </CodeContainer>
               </React.Fragment>

@@ -12,7 +12,7 @@ const Music = () => {
     <StyledMusic id="music">
       <div>
         <TitleText>
-          <h2>Music Videos I'm In</h2>
+          <h1>Music Videos I'm In</h1>
           <div>
             <a
               href="https://www.instagram.com/elie.s.h/"
