@@ -11,7 +11,8 @@ export const StyledNav = styled.div`
 
   ul {
     display: flex;
-    p {
+    a {
+      font-size: 18px;
       padding: 0 10px;
     }
   }

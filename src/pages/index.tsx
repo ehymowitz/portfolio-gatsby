@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout/layout"
-import Code from "../sections/code/code"
+// import Code from "../sections/code/code"
 import Top from "../sections/top/top"
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
       <>
         <Top />
-        <Code />
+        {/* <Code /> */}
       </>
     </Layout>
   )
