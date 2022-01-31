@@ -24,7 +24,7 @@ export const MusicContainer = styled.div`
 
     &:hover {
       width: 600px;
-      height: 400px;
+      height: 390px;
     }
   }
 `
