@@ -32,7 +32,7 @@ const Code = () => {
             </a>
           </div>
         </TitleText>
-        <SmallText>
+        <SmallText style={{ textAlign: "right", marginTop: "-5px" }}>
           ** I'm currently employed at{" "}
           <a
             href="https://www.cloudraker.com/en/"
