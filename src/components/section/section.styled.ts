@@ -10,7 +10,6 @@ export const StyledSection = styled.section`
 
 export const TitleText = styled.div`
   display: flex;
-  align-items: center;
   justify-content: space-between;
 
   div {
@@ -29,4 +28,8 @@ export const TitleText = styled.div`
 
 export const SmallText = styled.p`
   font-size: 12px;
+  @media only screen and (max-width: 1024px) {
+    text-align: left !important;
+    margin-top: 5px !important;
+  }
 `
