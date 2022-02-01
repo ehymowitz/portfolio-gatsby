@@ -1,9 +1,12 @@
 import React from "react"
+import useScroll from "../../hooks/useScroll"
 import { StyledNav } from "./nav.styled"
 
 const Nav = () => {
+  const { direction } = useScroll()
+
   return (
-    <StyledNav>
+    <StyledNav hide={direction < 0} position="top">
       <h2>EH</h2>
       <ul>
         <a href="#me">Me</a>

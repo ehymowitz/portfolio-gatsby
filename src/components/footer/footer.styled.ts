@@ -1,10 +1,7 @@
 import styled from "styled-components"
+import { HideOnScroll } from "../layout/layout.styled"
 
-export const StyledFooter = styled.section`
+export const StyledFooter = styled(HideOnScroll)`
   font-size: 24px;
-  display: flex;
   justify-content: space-between;
-  position: fixed;
-  bottom: 2em;
-  width: 89%;
 `

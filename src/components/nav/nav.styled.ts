@@ -1,13 +1,10 @@
 import styled from "styled-components"
+import { HideOnScroll } from "../layout/layout.styled"
 
-export const StyledNav = styled.div`
-  display: flex;
+export const StyledNav = styled(HideOnScroll)`
   justify-content: space-between;
   font-family: "Fraunces";
   align-items: center;
-  position: fixed;
-  top: 2em;
-  width: 89%;
 
   ul {
     display: flex;
