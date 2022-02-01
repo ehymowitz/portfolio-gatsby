@@ -11,24 +11,21 @@ const Code = () => {
         <TitleText>
           <h1>Projects I maintain</h1>
           <div>
+            <LinkedInIcon />
             <a
               href="https://www.linkedin.com/in/eliehymowitz/"
               target="_blank"
               rel="noopener"
             >
-              <SmallText>
-                <LinkedInIcon />
-                To reach me in a professional setting
-              </SmallText>
+              <SmallText>To reach me in a professional setting</SmallText>
             </a>
+            <GitHubIcon />
             <a
               href="https://github.com/ehymowitz"
               target="_blank"
               rel="noopener"
             >
-              <SmallText>
-                <GitHubIcon /> To see what I'm working on these days
-              </SmallText>
+              <SmallText>To see what I'm working on these days</SmallText>
             </a>
           </div>
         </TitleText>
@@ -49,18 +46,18 @@ const Code = () => {
             return (
               <React.Fragment key={project.name}>
                 <CodeContainer>
-                  <a href={project.link} target="_blank" rel="noopener">
-                    <h3>{project.name}</h3>
-                    {project.icons.map(icon => (
-                      <React.Fragment key={icon.name}>
-                        <icon.component />
-                      </React.Fragment>
-                    ))}
-                    <div>
+                  <h3>{project.name}</h3>
+                  {project.icons.map(icon => (
+                    <React.Fragment key={icon.name}>
+                      <icon.component />
+                    </React.Fragment>
+                  ))}
+                  <div>
+                    <a href={project.link} target="_blank" rel="noopener">
                       <project.image />
-                    </div>
-                    <h3>{project.subtitle}</h3>
-                  </a>
+                    </a>
+                  </div>
+                  <h3>{project.subtitle}</h3>
                 </CodeContainer>
               </React.Fragment>
             )

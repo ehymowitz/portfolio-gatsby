@@ -14,30 +14,27 @@ const Music = () => {
         <TitleText>
           <h1>Music Videos I'm In</h1>
           <div>
+            <InstagramIcon />
             <a
               href="https://www.instagram.com/elie.s.h/"
               target="_blank"
               rel="noopener"
             >
-              <SmallText>
-                <InstagramIcon />
-                For more of what I'm up to
-              </SmallText>
+              <SmallText>For more of what I'm up to</SmallText>
             </a>
+            <SpotifyIcon />
             <a
               href="https://open.spotify.com/playlist/2ieh5fIUHEdPw5dnwS2wcp?si=Q7GnR3flREOSEcb3ME6HzA"
               target="_blank"
               rel="noopener"
             >
-              <SmallText>
-                <SpotifyIcon /> For more songs I've played on
-              </SmallText>
+              <SmallText>For more songs I've played on</SmallText>
             </a>
           </div>
         </TitleText>
         <MusicList>
           {musicProjects.map(project => (
-            <MusicContainer>
+            <MusicContainer key={project.link}>
               <iframe
                 src={project.link}
                 frameBorder="0"

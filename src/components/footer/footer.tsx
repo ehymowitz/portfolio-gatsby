@@ -14,10 +14,10 @@ const Footer = () => {
         CV
       </a>
       <div>
-        <LinkedInIcon />
-        <GitHubIcon />
         <InstagramIcon />
         <SpotifyIcon />
+        <LinkedInIcon />
+        <GitHubIcon />
         <EmailIcon />
       </div>
     </StyledFooter>

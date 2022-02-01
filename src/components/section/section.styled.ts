@@ -5,15 +5,17 @@ export const StyledSection = styled.section`
   align-items: center;
   height: 90vh;
   min-height: 800px;
+  scroll-snap-align: center;
 `
 
 export const TitleText = styled.div`
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
 
   div {
     display: flex;
+    align-items: center;
   }
 
   @media only screen and (max-width: 1024px) {
