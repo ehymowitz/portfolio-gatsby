@@ -6,6 +6,11 @@ export interface MusicProjects {
 
 const MusicProjects = [
   {
+    link: "https://www.youtube.com/embed/SRBaRnSZmxw",
+    title: "Session de Salon",
+    band: "Hansom Ēli",
+  },
+  {
     link: "https://www.youtube.com/embed/ti_-w61KmYk",
     title: "Live @ La Petite Maison des Arts",
     band: "Jace Carrillo",
@@ -33,7 +38,7 @@ const MusicProjects = [
   {
     link: "https://www.youtube.com/embed/cPGjnA0F9OI",
     title: "Summer Rise (Live at The Loft)",
-    band: "Hansom Eli",
+    band: "Hansom Ēli",
   },
   {
     link: "https://www.youtube.com/embed/04NIMCumy5w",
@@ -43,12 +48,12 @@ const MusicProjects = [
   {
     link: "https://www.youtube.com/embed/xXIYXOJQsW0",
     title: "Soho (Live at The Loft)",
-    band: "Hansom Eli",
+    band: "Hansom Ēli",
   },
   {
     title: "Northern Touch Music Festival",
     link: "https://www.youtube.com/embed/a8sppGMn8gc?start=1045",
-    band: "Hansom Eli",
+    band: "Hansom Ēli",
   },
   {
     title: "OAP Live Online",
