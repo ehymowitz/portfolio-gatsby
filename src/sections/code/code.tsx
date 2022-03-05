@@ -29,18 +29,6 @@ const Code = () => {
             </a>
           </div>
         </TitleText>
-        <SmallText style={{ textAlign: "right", marginTop: "-5px" }}>
-          ** I'm currently employed at{" "}
-          <a
-            href="https://www.cloudraker.com/en/"
-            target="_blank"
-            rel="noopener"
-            style={{ textDecoration: "underline" }}
-          >
-            CloudRaker
-          </a>
-          , so I'm not working on too too many side projects these days
-        </SmallText>
         <CodeList>
           {codeProjects.map(project => {
             return (
