@@ -19,9 +19,10 @@ export const TitleText = styled.div`
 
   @media only screen and (max-width: 1024px) {
     flex-direction: column;
-
-    div {
-      display: grid;
+    align-items: baseline;
+    p {
+      margin-bottom: 0;
+      margin-right: 20px;
     }
   }
 `
