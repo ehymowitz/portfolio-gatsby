@@ -6,13 +6,13 @@ interface UpcomingShow {
 }
 
 const UpcomingShows: UpcomingShow[] = [
-  { date: "March 10th", location: "Blue Dog", band: "Zach Winter" },
-  { date: "March 14th", location: "TurboHaus", band: "1000 Joules" },
   {
-    date: "March 16th-28th",
-    location: "BC Tour",
-    band: "Apples",
+    date: "April 13th",
+    location: "Club Balattou",
+    band: "Jace Carrillo",
+    link: "https://fb.me/e/2uzabPaeU",
   },
+  { date: "April 23rd", location: "Blue Dog", band: "Zach Winter" },
 ]
 
 export default UpcomingShows

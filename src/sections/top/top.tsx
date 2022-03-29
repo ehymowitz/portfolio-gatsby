@@ -1,6 +1,10 @@
 import React from "react"
 import upcomingShows from "../../media/top/upcomingShows"
-import { StyledTop, StyledUpcomingShows } from "./top.styled"
+import {
+  StyledTop,
+  StyledUpcomingShows,
+  UpcomingShowHolder,
+} from "./top.styled"
 
 const Top = () => {
   return (
@@ -14,10 +18,17 @@ const Top = () => {
         <h2>Upcoming Shows</h2>
         {upcomingShows.map(upcomingShow => (
           <div key={upcomingShow.date}>
-            <h3>{upcomingShow.date}</h3>
-            <p>
-              {upcomingShow.location} w/ {upcomingShow.band}
-            </p>
+            <UpcomingShowHolder
+              href={upcomingShow.link}
+              target="_blank"
+              rel="noopener"
+              linkAvailable={!!upcomingShow.link}
+            >
+              <h3>{upcomingShow.date}</h3>
+              <p>
+                {upcomingShow.location} w/ {upcomingShow.band}
+              </p>
+            </UpcomingShowHolder>
           </div>
         ))}
       </StyledUpcomingShows>

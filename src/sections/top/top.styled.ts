@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { StyledSection } from "../../components/section/section.styled"
 
 export const StyledTop = styled(StyledSection)`
@@ -39,4 +39,12 @@ export const StyledUpcomingShows = styled.div`
       justify-content: space-between;
     }
   }
+`
+
+export const UpcomingShowHolder = styled.a<{ linkAvailable: boolean }>`
+  ${props =>
+    !!props.linkAvailable &&
+    css`
+      text-decoration: underline;
+    `}
 `
