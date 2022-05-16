@@ -7,12 +7,12 @@ interface UpcomingShow {
 
 const UpcomingShows: UpcomingShow[] = [
   {
-    date: "April 13th",
-    location: "Club Balattou",
-    band: "Jace Carrillo",
-    link: "https://fb.me/e/2uzabPaeU",
+    date: "May 17th",
+    location: "La Marche à côté",
+    band: "Ohiana",
   },
-  { date: "April 23rd", location: "Blue Dog", band: "Zach Winter" },
+  { date: "May 19th", location: "LE SALON - Collectif Créatif", band: "Hansom Ēli", link: "https://fb.me/e/391X4dCMO" },
+  { date: "May 21st", location: "LE SALON - Collectif Créatif", band: "Hansom Ēli", link: "https://fb.me/e/391X4dCMO" },
 ]
 
 export default UpcomingShows
