@@ -7,14 +7,27 @@ interface UpcomingShow {
 
 const UpcomingShows: UpcomingShow[] = [
   {
-    date: "June 10th",
-    location: "Canadian Music Week",
-    band: "Jace Carrillo",
-    link: "https://cmw.net/festival/artists/jace-carrillo/"
+    date: "July 8th",
+    location: "Festival International de Jazz de Montréal",
+    band: "Laroie",
+    link: "https://fb.me/e/2jdqDuBzM",
   },
-  { date: "June 15th", location: "Bar Courcelle", band: "Markus Murphy"},
-  { date: "June 16th", location: "Parc des Ameriques", band: "YZABO", link: "https://allevents.in/saint-lambert/parc-fringe-park-2022/200022744118301"},
-  { date: "June 27th", location: "Petit Campus", band: "Hansom Eli", link: "https://shows.cafecampus.com/evenements"},
+  { date: "July 14th", band: "YZABO", location: "Honey Martin" },
+  {
+    date: "July 16th",
+    location: "Chinatown Night Market",
+    band: "YZABO",
+  },
+  {
+    date: "July 28th",
+    band: "YZABO",
+    location: "Honey Martin",
+  },
+  {
+    date: "July 30th",
+    location: "Sweet Soul Saturday (Montreal Improv)",
+    band: "YZABO",
+  },
 ]
 
 export default UpcomingShows
