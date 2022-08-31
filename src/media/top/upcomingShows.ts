@@ -7,26 +7,31 @@ interface UpcomingShow {
 
 const UpcomingShows: UpcomingShow[] = [
   {
-    date: "July 8th",
-    location: "Festival International de Jazz de Montréal",
+    date: "September 2nd",
+    location: "Freakfest",
+    band: "Mort Vulcan",
+  },
+  { date: "September 8th", band: "YZABO", location: "Honey Martin" },
+  {
+    date: "September 11th",
+    band: "YZABO",
+    location: "l'Escogriffe Bar Spectacle",
+  },
+  {
+    date: "September 16th",
+    band: "YZABO",
+    location: "TBD",
+  },
+  { date: "September 22nd", band: "YZABO", location: "Honey Martin" },
+  {
+    date: "September 28th",
+    location: "TBD",
     band: "Laroie",
-    link: "https://fb.me/e/2jdqDuBzM",
-  },
-  { date: "July 14th", band: "YZABO", location: "Honey Martin" },
-  {
-    date: "July 16th",
-    location: "Chinatown Night Market",
-    band: "YZABO",
   },
   {
-    date: "July 28th",
+    date: "September 29th",
     band: "YZABO",
-    location: "Honey Martin",
-  },
-  {
-    date: "July 30th",
-    location: "Sweet Soul Saturday (Montreal Improv)",
-    band: "YZABO",
+    location: "Blug Dog",
   },
 ]
 
