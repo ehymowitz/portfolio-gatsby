@@ -20,7 +20,7 @@ const UpcomingShows: UpcomingShow[] = [
   {
     date: "September 16th",
     band: "YZABO",
-    location: "TBD",
+    location: "The Diving Bell Social Club",
   },
   { date: "September 22nd", band: "YZABO", location: "Honey Martin" },
   {
