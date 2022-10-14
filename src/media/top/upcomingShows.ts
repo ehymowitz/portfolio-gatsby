@@ -7,31 +7,25 @@ interface UpcomingShow {
 
 const UpcomingShows: UpcomingShow[] = [
   {
-    date: "September 2nd",
-    location: "Freakfest",
-    band: "Mort Vulcan",
+    date: "October 4th",
+    location: "Brasserie Beaubien",
+    band: "Passionate Rascal & Yung Kung Ra",
   },
-  { date: "September 8th", band: "YZABO", location: "Honey Martin" },
+  { date: "October 6th", band: "YZABO", location: "Honey Martin" },
   {
-    date: "September 11th",
+    date: "October 15th",
+    band: "Super Sandwich",
+    location: "Le Basement ",
+  },
+  {
+    date: "October 20th",
     band: "YZABO",
-    location: "l'Escogriffe Bar Spectacle",
+    location: "Honey Martin",
   },
   {
-    date: "September 16th",
+    date: "October 29th",
     band: "YZABO",
-    location: "The Diving Bell Social Club",
-  },
-  { date: "September 22nd", band: "YZABO", location: "Honey Martin" },
-  {
-    date: "September 28th",
-    location: "TBD",
-    band: "Laroie",
-  },
-  {
-    date: "September 29th",
-    band: "YZABO",
-    location: "Blug Dog",
+    location: "WolfLab",
   },
 ]
 
