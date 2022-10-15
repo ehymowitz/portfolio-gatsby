@@ -36,7 +36,7 @@ export const StyledUpcomingShows = styled.div`
 
     div {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
     }
   }
 `
