@@ -6,12 +6,20 @@ import {
   UpcomingShowHolder,
 } from "./top.styled"
 
-const Top = () => {
+interface TopProps {
+  showMusicFirst?: boolean
+}
+
+const Top = ({ showMusicFirst = false }: TopProps) => {
   return (
     <StyledTop id="me">
       <div>
         <h1>Hi, I'm Elie</h1>
-        <h2>I'm a web developer. I also play music</h2>
+        {showMusicFirst ? (
+          <h2>I'm a musician. I also develop websites and apps</h2>
+        ) : (
+          <h2>I'm a web and app developer. I also play music</h2>
+        )}
         <h2>Born in Seattle, living in Montreal</h2>
       </div>
       <StyledUpcomingShows>
