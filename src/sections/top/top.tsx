@@ -22,24 +22,26 @@ const Top = ({ showMusicFirst = false }: TopProps) => {
         )}
         <h2>Born in Seattle, living in Montreal</h2>
       </div>
-      <StyledUpcomingShows>
-        <h2>Upcoming Shows</h2>
-        {upcomingShows.map(upcomingShow => (
-          <div key={upcomingShow.date}>
-            <UpcomingShowHolder
-              href={upcomingShow.link}
-              target="_blank"
-              rel="noopener"
-              linkAvailable={!!upcomingShow.link}
-            >
-              <h3>{upcomingShow.date}</h3>
-              <p>
-                {upcomingShow.location} w/ {upcomingShow.band}
-              </p>
-            </UpcomingShowHolder>
-          </div>
-        ))}
-      </StyledUpcomingShows>
+      {upcomingShows.length > 0 && (
+        <StyledUpcomingShows>
+          <h2>Upcoming Shows</h2>
+          {upcomingShows.map(upcomingShow => (
+            <div key={upcomingShow.date}>
+              <UpcomingShowHolder
+                href={upcomingShow.link}
+                target="_blank"
+                rel="noopener"
+                linkAvailable={!!upcomingShow.link}
+              >
+                <h3>{upcomingShow.date}</h3>
+                <p>
+                  {upcomingShow.location} w/ {upcomingShow.band}
+                </p>
+              </UpcomingShowHolder>
+            </div>
+          ))}
+        </StyledUpcomingShows>
+      )}
     </StyledTop>
   )
 }
